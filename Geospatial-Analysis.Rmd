@@ -76,11 +76,13 @@ all_prices2
 ```
 
 # Array
-An array is a data structure that can hold multi-dimensional data. In R, the array is objects that can hold two or more than two-dimensional data
-  - Lets combine 6 vectors into a 3×3×2 array:
-   - 3 rows → items
-   - 3 columns → months
-   - 2 layers → years (2018 and 2017)
+An array is a data structure that can hold multi-dimensional data. In R, the array is an object that can hold two or more than two-dimensional data.
+
+- Let’s combine 6 vectors into a 3×3×2 array:
+  - **3 rows** → items  
+  - **3 columns** → months  
+  - **2 layers** → years (2018 and 2017)
+
 ```{r}
 # Create six vectors
 jan_2018 = c(10, 11, 20)
@@ -94,15 +96,11 @@ combined = array(c(jan_2018, mar_2018, june_2018, jan_2017, mar_2017, june_2017)
 combined
 
 ```
-
-
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# DataFrame
+Data Frames are data displayed in a format as a table.
+Data Frames can have different types of data inside it.
+ - use the **data.frame()** function to create a data frame.
+ 
+ ```{r}
+ all_prices3 = data.frame(items, jan_price, mar_price, june_price)
+ ```
