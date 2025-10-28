@@ -101,6 +101,13 @@ Data Frames are data displayed in a format as a table.
 Data Frames can have different types of data inside it.
  - use the **data.frame()** function to create a data frame.
  
- ```{r}
+```{r}
  all_prices3 = data.frame(items, jan_price, mar_price, june_price)
- ```
+all_prices3
+```
+- remove the first column (*items*)
+
+```{r}
+all_prices4 = all_prices3[-1]
+all_prices4
+```
