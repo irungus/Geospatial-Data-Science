@@ -34,4 +34,4 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-This is a project am working on the project am working on to ensure that am fit for the Job market mine
+This is a project am working on the project am working on to ensure that am fit for the Job market mine why
